@@ -13,7 +13,7 @@ license = "Zlib"
 exclude = ["releases/**/*"]
 
 [dependencies]
-attohttpc = { version = "0.12", features = ["json"] }
+attohttpc = { version = "0.12", features = ["json", "tls"] }
 anyhow = "1"
 atty = "0.2"
 dirs = "2"
